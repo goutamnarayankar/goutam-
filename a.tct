@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+int a=10,b=5,c;
+printf("Before swapping %d & %d",a,b);
+c=a;
+b=a;
+a-c;
+printf("after swapping %d & %d",a,b);
